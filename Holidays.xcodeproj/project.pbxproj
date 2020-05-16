@@ -13,6 +13,10 @@
 		6A11271C247078B300AFBD3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A11271A247078B300AFBD3B /* Main.storyboard */; };
 		6A11271E247078B500AFBD3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A11271D247078B500AFBD3B /* Assets.xcassets */; };
 		6A112721247078B500AFBD3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A11271F247078B500AFBD3B /* LaunchScreen.storyboard */; };
+		6A11272C2470873900AFBD3B /* CellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A11272B2470873900AFBD3B /* CellView.swift */; };
+		6A11272E2470875100AFBD3B /* HolidaysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A11272D2470875100AFBD3B /* HolidaysModel.swift */; };
+		6A1127302470876600AFBD3B /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A11272F2470876600AFBD3B /* Network.swift */; };
+		6A1127322470877E00AFBD3B /* HolidaysViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1127312470877E00AFBD3B /* HolidaysViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		6A11271D247078B500AFBD3B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A112720247078B500AFBD3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A112722247078B500AFBD3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A11272B2470873900AFBD3B /* CellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellView.swift; sourceTree = "<group>"; };
+		6A11272D2470875100AFBD3B /* HolidaysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysModel.swift; sourceTree = "<group>"; };
+		6A11272F2470876600AFBD3B /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		6A1127312470877E00AFBD3B /* HolidaysViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		6A112713247078B300AFBD3B /* Holidays */ = {
 			isa = PBXGroup;
 			children = (
+				6A112728247086CD00AFBD3B /* ViewControllers */,
+				6A112729247086DE00AFBD3B /* Views */,
+				6A11272A247086E700AFBD3B /* Models */,
 				6A112714247078B300AFBD3B /* AppDelegate.swift */,
 				6A112716247078B300AFBD3B /* SceneDelegate.swift */,
-				6A112718247078B300AFBD3B /* ViewController.swift */,
 				6A11271A247078B300AFBD3B /* Main.storyboard */,
 				6A11271D247078B500AFBD3B /* Assets.xcassets */,
 				6A11271F247078B500AFBD3B /* LaunchScreen.storyboard */,
 				6A112722247078B500AFBD3B /* Info.plist */,
 			);
 			path = Holidays;
+			sourceTree = "<group>";
+		};
+		6A112728247086CD00AFBD3B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6A112718247078B300AFBD3B /* ViewController.swift */,
+				6A1127312470877E00AFBD3B /* HolidaysViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6A112729247086DE00AFBD3B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6A11272B2470873900AFBD3B /* CellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6A11272A247086E700AFBD3B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6A11272D2470875100AFBD3B /* HolidaysModel.swift */,
+				6A11272F2470876600AFBD3B /* Network.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A11272E2470875100AFBD3B /* HolidaysModel.swift in Sources */,
+				6A11272C2470873900AFBD3B /* CellView.swift in Sources */,
+				6A1127302470876600AFBD3B /* Network.swift in Sources */,
 				6A112719247078B300AFBD3B /* ViewController.swift in Sources */,
+				6A1127322470877E00AFBD3B /* HolidaysViewController.swift in Sources */,
 				6A112715247078B300AFBD3B /* AppDelegate.swift in Sources */,
 				6A112717247078B300AFBD3B /* SceneDelegate.swift in Sources */,
 			);
